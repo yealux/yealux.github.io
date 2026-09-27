@@ -1,10 +1,10 @@
 html {
-    scrollbar-color: #ffffff #ffffff; /* thumb color, track color */
+    scrollbar-color: #0a0a0a #0a0a0a; /* thumb color, track color */
 }
 
 body {
     font-family: "Google Sans", sans-serif;
-    background-color: #ffffff;
+    background-color: #1d1d1d;
     min-height: 100vh;
     padding: 2rem;
     
@@ -16,24 +16,28 @@ body {
 }
 
 h1 {
-    color: #0a0a0a;
+    color: #ffffff;
     font-size: clamp(1.4rem, 2vw, 3rem);
 }
 
 h2 {
-    color: #0a0a0a;
+    color: #ffffff;
     font-size: clamp(1.5rem, 3vw, 3rem);
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
 
 p {
-    color: #0a0a0a;
+    color: #ffffff;
     font-size: clamp(1.0rem, 1.4vw, 3rem);
     max-width: 40vw;
 }
 
 a {
-    color: #0a0a0a;
+    color: #ffffff;
     font-size: clamp(1.0rem, 1.5vw, 3rem);
+}
+
+li {
+    color: #ffffff;
 }

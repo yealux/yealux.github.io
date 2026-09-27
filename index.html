@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Suicide Prevention Month.
+        </h1>
+    </header>
+
+    <main>
+        <p>
+            <strong>Suicide Prevention Month is here because many people feel like they do not belong.</strong>
+        </p>
+        <p>
+            <strong>Many people feel like they don't matter or belong, alongside facing mental health issues and trauma.</strong>
+        </p>
+        <p>
+            <strong>Most people forget how many people and young children lose their lives because of mental issues, trauma, not belonging and various other factors.</strong>
+        </p>
+        <p>
+            <strong>Remember, no matter what anyone says, you matter way more than you would ever think of.</strong>
+        </p>
+        <p>
+            <strong>If you have any relatives, friends, family or person in mind that might need help, check-in on them, a simple action can prevent so much.</strong>
+        </p>
+        <p>
+            <strong>If you yourself are going through this, please call 988 or the suicide crisis helpline.</strong>
+        </p>
+    </main>
+
+    <section>
+        <h2>
+            Support:
+        </h2>
+        <ul>
+            <li><a href="tel:988">Suicide Crisis Hotline Number</a></li>
+            <li><a href="https://www.canada.ca/en/public-health/services/suicide-prevention.html" target="_blank">Learn more about Suicide Prevention Month</a></li>
+            <li><a href="https://kidshelpphone.ca/" target="_blank">Kids Help Phone (Youth & Young Adults)</a></li>
+            <li><a href="https://hopeforwellness.ca/" target="_blank">Hope for Wellness Helpline (First Nations & Inuit Support)</a></li>
+        </ul>
+    </section>
+
+    <div class="clock"><h1 id="clock"></h2></div>
+
+    
+</body>
+
+<script>
+    function getDate() {
+        const date = new Date();
+        document.getElementById("clock").innerText = date.toLocaleString();
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        setInterval(getDate, 1000);
+    });
+</script>
+
+</html>
